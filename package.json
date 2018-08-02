@@ -1,0 +1,32 @@
+{
+  "name": "slow-kill",
+  "version": "0.0.0",
+  "description": "Tries to kill a process nicely and after a timeout invokes kill(9).",
+  "main": "slow-kill.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "files": [ "slow-kill.js" ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thlorenz/slow-kill.git"
+  },
+  "homepage": "https://github.com/thlorenz/slow-kill",
+  "keywords": [],
+  "author": {
+    "name": "Thorsten Lorenz",
+    "email": "thlorenz@gmx.de",
+    "url": "http://thlorenz.com"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/thlorenz/slow-kill/blob/master/LICENSE"
+  },
+  "engine": {
+    "node": ">=8"
+  },
+  "devDependencies": {
+    "performance-now": "~2.1.0",
+    "tape": "~4.9.1"
+  }
+}
