@@ -1,12 +1,14 @@
 {
   "name": "slow-kill",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Tries to kill a process nicely and after a timeout invokes kill(9).",
   "main": "slow-kill.js",
   "scripts": {
     "test": "tape test/*.js"
   },
-  "files": [ "slow-kill.js" ],
+  "files": [
+    "slow-kill.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/thlorenz/slow-kill.git"
